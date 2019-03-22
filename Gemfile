@@ -19,7 +19,7 @@ gem 'mini_racer', platforms: :ruby
 gem 'slim'
 
 # Bootstrap and jquery
-gem 'bootstrap', '~> 4.3.1'
+gem "twitter-bootstrap-rails"
 gem 'jquery-rails'
 
 
