@@ -1,0 +1,12 @@
+
+default: &default
+  adapter: postgresql
+  encoding: unicode
+  host: localhost
+  username: kietnht
+  password: kiet123
+
+development:
+  <<: *default
+  database: photobook_development
+
